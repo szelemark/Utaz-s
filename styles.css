@@ -86,7 +86,8 @@ footer {
 }
 h1{
     line-height: 15px;
-    margin-bottom:1px ;
+    margin-top: 4px;
+    margin-bottom:4px ;
 }
 h2{
     color: burlywood;
