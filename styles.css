@@ -3,8 +3,14 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f4f4f4;
+    background-size: cover;
     color: #333;
+    background-position: center;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(bgc.webp);
+    background-blend-mode: overlay;
+        
+    
+    
 }
 
 header {
@@ -32,7 +38,7 @@ nav ul li a {
 
 .hero {
     text-align: center;
-    background: url('hero.jpg') no-repeat center center/cover;
+    background:  no-repeat center center/cover;
     color: white;
     padding: 100px 20px;
 }
@@ -70,6 +76,7 @@ nav ul li a {
     width: 200px;
     height: 150px;
     border-radius: 10px;
+  
 }
 
 #about, #contact {
@@ -88,8 +95,13 @@ h1{
     line-height: 15px;
     margin-top: 4px;
     margin-bottom:4px ;
+    color: burlywood;
 }
 h2{
+    color: burlywood;
+    
+}
+h3{
     color: burlywood;
 }
 p{
@@ -97,4 +109,14 @@ p{
 }
 a:hover{
     color: burlywood;
+}
+#about{
+    margin-bottom:-100px;
+}
+footer{
+    height: min-content;
+}
+.hűségprogram{
+    margin: auto;
+    text-align: end;
 }
