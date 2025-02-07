@@ -3,10 +3,10 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-size: cover;
+    background-size:cover ;
     color: #333;
     background-position: center;
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('paris-bg.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('../Pictures/paris_bg.jpg');
     background-blend-mode: overlay;
 }
 
@@ -60,6 +60,9 @@ nav ul li a {
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
+    align-items: flex-start;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minimax(300px, 1fr))
 }
 
 .destination {
