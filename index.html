@@ -21,10 +21,11 @@
         </nav>
     </header>
     <section class="countdown-section">
+        <h1>Ne maradj le akciónkról!</h1>
         <h2>Maradt hátra az ajánlat igénybevételéig:</h2>
         <div class="countdown">
             <div class="countdown-box">
-                <span class="time" id="days">03</span>
+                <span class="time" id="days">02</span>
                 <span class="label">Nap</span>
             </div>
             <div class="countdown-box">
@@ -45,27 +46,29 @@
         <h2> <b>Legnépszerűbb Úticélok:</b></h2> <br>
         <h3><b>További tudnivalókért kattintson a képre</b></h3>
         <div class="destination-grid">
-            <div class="destination">
-                <a href="bali.html"><img src="bali.jpg" alt="Bali"></a>
+            <a href="bali.html"><div class="destination">
+                <img src="bali.jpg" alt="Bali">
                 <h3>Bali</h3>
             </div>
-            <div class="destination">
-                <a href="párizs.html"><img src="paris.jpg" alt="Párizs"></a>
-                <h3>Párizs</h3>
-            </div>
-            <div class="destination">
-                <a href="tokió.html"><img src="tokyo.jpg" alt="Tokió"></a>
+            <a href="párizs.html">
+                <div class="destination">
+                    <img src="paris.jpg" alt="Párizs">
+                    <h3>Párizs</h3>
+                </div>
+            </a>
+            <a href="tokió.html"><div class="destination">
+                <img src="tokyo.jpg" alt="Tokió">
                 <h3>Tokió</h3> 
-            </div> 
+            </div> </a>
 
-            <div class="destination">
-                <a href="New york.html"><img src="New York.jpg" alt="New York"></a>
+            <a href="New york.html"> <div class="destination">
+                <img src="New York.jpg" alt="New York">
                 <h3>New York</h3>
-            </div>
-            <div class="destination">
-                <a href="dubai.html"><img src="Dubai.jpg" alt="Dubai"></a>
+            </div></a>
+            <a href="dubai.html"><div class="destination">
+                <img src="Dubai.jpg" alt="Dubai">
                 <h3>Dubai</h3>
-            </div>
+            </div></a>
         </div>
     </section>
     <footer>
@@ -81,5 +84,30 @@
         </section>
         <p>&copy; 2025 Utazási Weboldal. Minden jog fenntartva.</p>
     </footer>
+    <script>
+        const countdownDate = new Date("2025-02-10T00:00:00").getTime();
+        
+        const countdownFunction = setInterval(function () {
+            const now = new Date().getTime();
+            const timeLeft = countdownDate - now;
+        
+            const days = Math.floor(timeLeft / (1000 * 60 * 60 * 2)).toString().padStart(2, "0");
+            const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)).toString().padStart(2, "0");
+            const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60)).toString().padStart(2, "0");
+            const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000).toString().padStart(2, "0");
+        
+            document.getElementById("days").innerText = days;
+            document.getElementById("hours").innerText = hours;
+            document.getElementById("minutes").innerText = minutes;
+            document.getElementById("seconds").innerText = seconds;
+        
+            if (timeLeft < 0) {
+                clearInterval(countdownFunction);
+                document.querySelector(".countdown").innerHTML = "<h2>Lejárt az ajánlat!</h2>";
+            }
+        }, 1000);
+        </script>
+        
+        
 </body>
 </html>
