@@ -3,10 +3,11 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-size: cover;
     color: #333;
     background-position: center;
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('tokyo-bg.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('../Pictures/tokió_bgc.webp');
+    background-size: cover;
+    background-attachment: fixed;
     background-blend-mode: overlay;
 }
 
@@ -60,6 +61,9 @@ nav ul li a {
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
+    align-items: flex-start;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minimax(300px, 1fr))
 }
 
 .destination {
@@ -112,4 +116,15 @@ p {
 
 a:hover {
     color: burlywood;
+}
+header a{
+    color: unset;
+    text-decoration: none;
+}
+header h2{
+    line-height: 1px;
+    margin-bottom: 0;
+}
+header p{
+    margin-bottom: -10px;
 }
