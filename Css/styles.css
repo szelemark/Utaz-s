@@ -186,3 +186,9 @@ footer a:hover{
 section a{
     text-decoration: none;
 }
+#contact p{
+    margin-bottom: -15px;
+}
+#jog{
+    margin-top: -20px;
+}

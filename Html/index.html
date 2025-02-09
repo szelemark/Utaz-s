@@ -82,16 +82,18 @@
             
             <p>Telefon: +36 1 234 5678</p>
         </section>
-        <p>&copy; 2025 Utazási Weboldal. Minden jog fenntartva.</p>
+        <div id="jog">
+            <p>&copy; 2025 Utazási Weboldal. Minden jog fenntartva.</p>
+        </div>
     </footer>
     <script>
-        const countdownDate = new Date("2025-02-10T00:00:00").getTime();
+        const countdownDate = new Date("2025-03-01T00:00:00").getTime();
         
         const countdownFunction = setInterval(function () {
             const now = new Date().getTime();
             const timeLeft = countdownDate - now;
         
-            const days = Math.floor(timeLeft / (1000 * 60 * 60 * 2)).toString().padStart(2, "0");
+            const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24)).toString().padStart(2, "0");
             const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)).toString().padStart(2, "0");
             const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60)).toString().padStart(2, "0");
             const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000).toString().padStart(2, "0");

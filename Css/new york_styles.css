@@ -133,11 +133,16 @@ header h2{
     
 }
 header a {
-    line-height: 0cm;
+    line-height: 2cm;
+    margin-bottom: -20px;
+    
 }
 header p{
     margin-bottom: -15px;
 }
 header h1{
     margin-bottom: -15px;
+}
+section h2{
+    font-size: 0.6cm;
 }
