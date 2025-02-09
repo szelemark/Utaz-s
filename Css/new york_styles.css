@@ -3,11 +3,15 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-size: cover;
     color: #333;
     background-position: center;
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('ny-bg.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('../Pictures/newyork_bg.jpg');
     background-blend-mode: overlay;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    
 }
 
 header {
@@ -60,6 +64,9 @@ nav ul li a {
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
+    align-items: flex-start;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minimax(300px, 1fr))
 }
 
 .destination {
@@ -93,13 +100,13 @@ h1 {
     margin-top: 4px;
     margin-bottom: 4px;
     color: burlywood;
-    -webkit-text-stroke: 0.7px white;
+    -webkit-text-stroke: 0.5px white;
 }
 
 h2 {
     color: burlywood;
     line-height: 0;
-    -webkit-text-stroke: 0.7px white;
+    -webkit-text-stroke: 0.2px white;
 }
 
 h3 {
@@ -112,4 +119,25 @@ p {
 
 a:hover {
     color: burlywood;
+}
+header a{
+    text-decoration: none;
+    color: inherit;
+    line-height: 1cm;
+}
+section a{
+    text-decoration: none;
+}
+header h2{
+    margin-top: 1px;
+    
+}
+header a {
+    line-height: 0cm;
+}
+header p{
+    margin-bottom: -15px;
+}
+header h1{
+    margin-bottom: -15px;
 }

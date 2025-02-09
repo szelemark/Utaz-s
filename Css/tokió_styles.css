@@ -5,7 +5,7 @@ body {
     box-sizing: border-box;
     color: #333;
     background-position: center;
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('../Pictures/tokió_bgc.webp');
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('../Pictures/tokió_bgc.jpeg');
     background-size: cover;
     background-attachment: fixed;
     background-blend-mode: overlay;
@@ -97,13 +97,13 @@ h1 {
     margin-top: 4px;
     margin-bottom: 4px;
     color: burlywood;
-    -webkit-text-stroke: 0.7px white;
+    -webkit-text-stroke: 0.5px white;
 }
 
 h2 {
     color: burlywood;
     line-height: 0;
-    -webkit-text-stroke: 0.7px white;
+    -webkit-text-stroke: 0.3px white;
 }
 
 h3 {
@@ -127,4 +127,10 @@ header h2{
 }
 header p{
     margin-bottom: -10px;
+}
+section a{
+    text-decoration: none;
+}
+section h2{
+    margin-top: -10px;
 }

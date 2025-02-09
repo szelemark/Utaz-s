@@ -183,3 +183,6 @@ footer a:hover{
     text-decoration: underline;
     color: black;
 }
+section a{
+    text-decoration: none;
+}
