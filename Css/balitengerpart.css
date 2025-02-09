@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa;
+    color: #01579b;
+    text-align: center;
+}
+header {
+    background-color: #0288d1;
+    padding: 20px;
+    color: white;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+.hero {
+    padding: 50px;
+    background: url('bali-beach.jpg') no-repeat center center/cover;
+    color: white;
+}
+.btn {
+    background-color: #0277bd;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+section {
+    padding: 20px;
+}
+footer {
+    background-color: #0288d1;
+    color: white;
+    padding: 10px;
+}
