@@ -11,32 +11,8 @@
         <h1>Fedezd fel Bali varázsát!</h1>
         <a href="../Html/bali.html">Vissza</a>
     </header>
-    <div class="container">
-        <button class="arrow left" onclick="prevImage()">&#10094;</button>
-        <img id="slideshow" src="kep1.jpg" alt="Diavetítés">
-        <button class="arrow right" onclick="nextImage()">&#10095;</button>
-    </div>
-<img src="" alt="">
-    <script>
-        let images = ["../Pictures/balitengerpart.avif", "../Pictures/balitengerpart2.jpg", "../Pictures/balitengerpart3.jpg"];
-        let index = 0;
-
-        function showImage() {
-            document.getElementById("slideshow").src = images[index];
-        }
-
-        function nextImage() {
-            index = (index + 1) % images.length;
-            showImage();
-        }
-
-        function prevImage() {
-            index = (index - 1 + images.length) % images.length;
-            showImage();
-        }
-    </script>
-
     
+<img src="" alt="">
     <section class="hero">
         <h2>Bali Tengerpart</h2>
         <h3>Érezd a homokot a lábad alatt és a napfényt az arcodon</h3>
