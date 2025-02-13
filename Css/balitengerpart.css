@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #e0f7fa;
-    color: #01579b;
+    color: burlywood;
     text-align: center;
 }
 header {
@@ -42,4 +42,25 @@ footer {
     background-color: #0288d1;
     color: white;
     padding: 10px;
+}
+header a{
+    color: inherit;
+    text-decoration: none;
+}
+.destination img{
+    width: 600px;
+    height: 400px;
+}
+.hero h2{
+    color: burlywood
+}
+.hero p{
+    color: burlywood;
+    margin-bottom: -50px;
+}
+.hero h3{
+    color: burlywood;
+}
+footer{
+    color: burlywood;
 }
