@@ -126,3 +126,6 @@ header a{
 section a{
     text-decoration: none;
 }
+header h1{
+    margin-bottom: 30px;
+}

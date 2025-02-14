@@ -24,8 +24,8 @@ header h1 {
 
 .hero {
     padding: 50px;
-    
     color: white;
+    margin-bottom: -60px;
 }
 
 .hero h2 {
@@ -40,7 +40,7 @@ section {
     padding: 20px;
 }
 
-.museum img {
+.landmark img {
     width: 100%;
     max-width: 600px;
     border-radius: 10px;
@@ -59,6 +59,24 @@ footer h2 {
 footer p {
     color: burlywood;
 }
-.museum p{
-    margin-bottom: -40px;
+
+#skyTree h2 {
+    margin-top: -30px;
 }
+
+#ár h1 {
+    margin-top: -10px;
+}
+#skyTree p {
+    margin-bottom: 15px;
+}
+.landmark p{
+    margin-bottom: 30px;
+}
+.landmark2 img{
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;}
+ .landmark2 p{
+    margin-bottom: -40px;
+ }
