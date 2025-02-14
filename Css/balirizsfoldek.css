@@ -49,10 +49,16 @@
             color:burlywood;
             padding: 10px;
         }
-        header{
+        header h1{
             color: burlywood;
         }
         header a{
             color: inherit;
             text-decoration: none;
+        }
+        .hero h2{
+            color: burlywood;
+        }
+        .hero p{
+            color: burlywood;
         }
