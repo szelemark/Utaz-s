@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    background: #0077b6;
+    background: #1565c0;
     color: white;
     padding: 20px 0;
     text-align: center;
@@ -88,7 +88,7 @@ nav ul li a {
 
 footer {
     text-align: center;
-    background: #0077b6;
+    background: #1565c0;
     color: white;
     padding: 15px 0;
     margin-top: 20px;
@@ -99,13 +99,13 @@ h1 {
     margin-top: 4px;
     margin-bottom: 4px;
     color: burlywood;
-    -webkit-text-stroke: 0.5px white;
+    -webkit-text-stroke: 0.3px white;
 }
 
 h2 {
     color: burlywood;
     line-height: 0;
-    -webkit-text-stroke: 0.2px white;
+    -webkit-text-stroke: 0.1px white;
 
 }
 
@@ -115,6 +115,7 @@ h3 {
 
 p {
     color: burlywood;
+    
    
 }
 
@@ -145,4 +146,7 @@ header a{
 }
 section a{
     text-decoration: none;
+}
+#szoveg p{
+    -webkit-text-stroke: 0.05px white;
 }
