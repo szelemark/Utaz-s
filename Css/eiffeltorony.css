@@ -59,3 +59,15 @@ footer h2 {
 footer p {
     color: burlywood;
 }
+#torony h2{
+margin-top: -30px;
+}
+#ár h1{
+    margin-top: -10px;
+}
+.landmark p{
+    margin-bottom: -30px;
+}
+#torony p{
+    margin-bottom: 15px;
+}
