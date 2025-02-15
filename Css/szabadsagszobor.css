@@ -25,11 +25,11 @@ header h1 {
 .hero {
     padding: 50px;
     color: white;
-    margin-bottom: -60px;
 }
 
 .hero h2 {
     color: burlywood;
+    margin-top: -30px;
 }
 
 .hero p {
@@ -38,6 +38,41 @@ header h1 {
 
 section {
     padding: 20px;
+}
+
+#info {
+    background-color: #F0F8FF;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#info h2 {
+    font-size: 1.8rem;
+    color: burlywood;
+    margin-bottom: 20px;
+}
+
+#info h3 {
+    font-size: 1.4rem;
+    color: burlywood;
+    margin-top: 15px;
+}
+
+#info p {
+    font-size: 1rem;
+    color: burlywood;
+    line-height: 1.6;
+}
+
+#info ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+#info li {
+    margin-bottom: 10px;
 }
 
 .landmark img {
@@ -59,7 +94,6 @@ footer h2 {
 footer p {
     color: burlywood;
 }
-
 .landmark2 img{
     width: 100%;
     max-width: 600px;
@@ -68,4 +102,13 @@ footer p {
 
 .landmark2 p{
     margin-bottom: -40px;
+}
+#statue h2{
+    margin-top: -60px;
+}
+#Áraink{
+    margin-top: -30px;
+}
+#info h2{
+    margin-top: -30px;
 }
