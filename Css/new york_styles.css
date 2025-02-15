@@ -123,7 +123,9 @@ a:hover {
 header a{
     text-decoration: none;
     color: inherit;
-    line-height: 1cm;
+    line-height: 2cm;
+    margin-bottom: -10px;
+    margin-top: 100px;
 }
 section a{
     text-decoration: none;
@@ -132,16 +134,12 @@ header h2{
     margin-top: 1px;
     
 }
-header a {
-    line-height: 2cm;
-    margin-bottom: -20px;
-    
-}
+
 header p{
     margin-bottom: -15px;
 }
 header h1{
-    margin-bottom: -15px;
+    margin-top: 10px;
 }
 section h2{
     font-size: 0.6cm;
