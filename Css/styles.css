@@ -94,7 +94,6 @@ h1 {
     margin-top: 4px;
     margin-bottom: 4px;
     color: burlywood;
-    -webkit-text-stroke: 0.2px white;
 }
 
 h2 {
@@ -187,4 +186,7 @@ section a{
 }
 #jog{
     margin-top: -20px;
+}
+#destinations h3{
+    font-size:20px;
 }
