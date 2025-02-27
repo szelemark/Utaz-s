@@ -98,29 +98,29 @@ h1 {
     line-height: 15px;
     margin-top: 4px;
     margin-bottom: 4px;
-    color: burlywood;
+    color:  #c1b0aa;
     -webkit-text-stroke: 0.3px white;
 }
 
 h2 {
-    color: burlywood;
+    color:  #c1b0aa;
     line-height: 0;
     -webkit-text-stroke: 0.1px white;
 
 }
 
 h3 {
-    color: burlywood;
+    color:  #c1b0aa;
 }
 
 p {
-    color: burlywood;
+    color:  #c1b0aa;
     
    
 }
 
 a:hover {
-    color: burlywood;
+    color:  #c1b0aa;
 }
 .destination h2{
 display: flex;
@@ -135,7 +135,6 @@ div{
     margin-bottom: -10px;
 }
 #szoveg p{
-    -webkit-text-stroke: black 0.1px;
     font-size: 0.6cm;
 }
 header a{
@@ -146,7 +145,4 @@ header a{
 }
 section a{
     text-decoration: none;
-}
-#szoveg p{
-    -webkit-text-stroke: 0.05px white;
 }

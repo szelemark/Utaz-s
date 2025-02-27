@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #d0e6f7;
-    color: burlywood;
+    color:  #c1b0aa;
     text-align: center;
     background-repeat: no-repeat;
     display: grid;
@@ -49,7 +49,7 @@ section {
 }
 footer {
     background-color: #1565c0;
-    color:burlywood;
+    color: #c1b0aa;
     padding: 10px;
 }
 header a{
@@ -93,7 +93,7 @@ img {
     height: 400px;
 }
 header h1{
-color: burlywood;
+color:  #c1b0aa;
 }
 #gomb{
     display: flex;

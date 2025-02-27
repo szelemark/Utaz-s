@@ -4,7 +4,7 @@
             margin: 0;
             padding: 0;
             background-color:#d0e6f7;
-            color: burlywood;
+            color:  #c1b0aa;
             text-align: center;
         }
         header {
@@ -46,19 +46,19 @@
         }
         footer {
             background-color: #1565c0;
-            color:burlywood;
+            color: #c1b0aa;
             padding: 10px;
         }
         header h1{
-            color: burlywood;
+            color:  #c1b0aa;
         }
         header a{
             color: inherit;
             text-decoration: none;
         }
         .hero h2{
-            color: burlywood;
+            color:  #c1b0aa;
         }
         .hero p{
-            color: burlywood;
+            color: #c1b0aa;
         }

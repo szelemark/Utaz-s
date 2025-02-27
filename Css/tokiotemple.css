@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #d0e6f7;
-    color: burlywood;
+    color:  #c1b0aa;
     text-align: center;
 }
 
@@ -19,7 +19,7 @@ header a {
 }
 
 header h1 {
-    color: burlywood;
+    color:  #c1b0aa;
 }
 
 .hero {
@@ -28,11 +28,11 @@ header h1 {
 }
 
 .hero h2 {
-    color: burlywood;
+    color:  #c1b0aa;
 }
 
 .hero p {
-    color: burlywood;
+    color:  #c1b0aa;
 }
 
 section {
@@ -52,11 +52,11 @@ footer {
 }
 
 footer h2 {
-    color: burlywood;
+    color:  #c1b0aa;
 }
 
 footer p {
-    color: burlywood;
+    color:  #c1b0aa;
 }
 
 #templom h2{

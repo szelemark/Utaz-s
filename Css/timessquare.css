@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #d0e6f7;
-    color: burlywood;
+    color:  #c1b0aa;
     text-align: center;
 }
 
@@ -19,7 +19,7 @@ header a {
 }
 
 header h1 {
-    color: burlywood;
+    color:  #c1b0aa;
 }
 
 .hero {
@@ -28,12 +28,12 @@ header h1 {
 }
 
 .hero h2 {
-    color: burlywood;
+    color:  #c1b0aa;
     margin-top: -30px;
 }
 
 .hero p {
-    color: burlywood;
+    color:  #c1b0aa;
 }
 
 section {
@@ -50,19 +50,19 @@ section {
 
 #info h2 {
     font-size: 1.8rem;
-    color: burlywood;
+    color:  #c1b0aa;
     margin-bottom: 20px;
 }
 
 #info h3 {
     font-size: 1.4rem;
-    color: burlywood;
+    color:  #c1b0aa;
     margin-top: 15px;
 }
 
 #info p {
     font-size: 1rem;
-    color: burlywood;
+    color:  #c1b0aa;
     line-height: 1.6;
 }
 
@@ -88,11 +88,11 @@ footer {
 }
 
 footer h2 {
-    color: burlywood;
+    color:  #c1b0aa;
 }
 
 footer p {
-    color: burlywood;
+    color:  #c1b0aa;
 }
 .landmark2 img{
     width: 100%;

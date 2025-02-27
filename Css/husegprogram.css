@@ -72,7 +72,7 @@ header a {
 }
 
 header h1 {
-    color: burlywood;
+    color:  #c1b0aa;
 }
 
 
@@ -90,7 +90,7 @@ footer {
 
 footer {
     background-color: #1565c0;
-    color: burlywood;
+    color:  #c1b0aa;
     text-align: center;
     padding: 20px 0;
     position: absolute;
@@ -110,6 +110,6 @@ div{
     margin-top: 100px ;
 } 
 footer a{
-    color: burlywood;
+    color:  #c1b0aa;
     text-decoration: none;
 }

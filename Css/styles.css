@@ -93,26 +93,26 @@ h1 {
     line-height: 15px;
     margin-top: 4px;
     margin-bottom: 4px;
-    color: burlywood;
+    color: #c1b0aa;
 }
 
 h2 {
-    color: burlywood;
+    color:  #c1b0aa;
     line-height:0 ;
     -webkit-text-stroke: 0.2px white;
 }
 
 h3 {
-    color: burlywood;
+    color:  #c1b0aa;
     
 }
 
 p {
-    color: burlywood;
+    color:  #c1b0aa;
 }
 
 a:hover {
-    color: burlywood;
+    color:  #c1b0aa;
 }
 
 #about {
@@ -168,7 +168,7 @@ a:hover {
 }
 
 .countdown-box:hover .time {
-    color: burlywood;
+    color:  #c1b0aa;
 }
 footer a{
     color: inherit;
